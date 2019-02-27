@@ -1,0 +1,31 @@
+#HeaderBar {
+    padding: 0px;
+    color: black;
+    background: gray;
+    overflow: auto;
+    clear: both;
+}
+
+#logo {
+    padding: 25px;
+    color: white;
+    background: green;
+    float: left;
+    position: relative;
+    left: 200px;
+}
+
+#about {
+    padding: 25px;
+    background: beige;
+    margin-top: 20px;
+    position: relative;
+    left: 200px;
+    
+}
+
+#copyright {
+    background: gray;
+    margin-top: 25px;
+    color: white;
+}
