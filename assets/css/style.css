@@ -29,7 +29,6 @@ Header {
     color: #777777;
     border: 1px solid #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 }
 
 #box {
@@ -44,7 +43,10 @@ footer {
     text-align: center;
     border-top: 5px solid #4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 h1 {
@@ -53,4 +55,13 @@ h1 {
 
 body {
     background-image: url('../images/white-waves/white-waves.png');
+}
+
+input{
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
 }
